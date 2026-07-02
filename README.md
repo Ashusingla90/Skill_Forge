@@ -1,30 +1,32 @@
-# Skillforge App
+# Skillforge
 
-A small 3-screen Android learning app built with Jetpack Compose, Retrofit, and Coil.
+Skillforge is a Kotlin Android app with a simple prompt-based image understanding workflow.
 
 ## Features
-- **Home Screen**: Browse categories and popular courses.
-- **Course Detail**: View course information, instructor details, and lessons.
-- **Lesson Player**: A video player interface with lesson navigation.
-- **Data Driven**: Powered by a single API endpoint.
-- **Modern Stack**: Kotlin, Jetpack Compose, Coroutines, Flow, ViewModel, and Retrofit.
-
-## Architecture
-- **MVVM**: Model-View-ViewModel pattern for separation of concerns.
-- **Repository Pattern**: Centralized data access.
-- **UiState**: Sealed class for handling Loading, Success, and Error states.
+- Prompt-based image understanding workflow
+- Simple input/output interface
+- Built with Kotlin and Jetpack Compose
+- Lightweight Android app structure
 
 ## Tech Stack
-- **Jetpack Compose**: For the modern declarative UI.
-- **Retrofit & Gson**: For network requests and JSON parsing.
-- **Coil**: For efficient image loading.
-- **Compose Navigation**: For screen-to-screen navigation.
-- **Kotlin Coroutines & Flow**: For asynchronous operations.
+- Kotlin
+- Jetpack Compose
+- Android SDK
 
-## Setup
+## Project Structure
+- `app/` — Android application module
+- `app/src/main/java/` — Kotlin source code
+- `app/src/main/res/` — UI resources, strings, and themes
+
+## Getting Started
 1. Clone the repository.
-2. Open in Android Studio (Ladybug or newer recommended).
-3. Sync Gradle and run the `:app` module.
+2. Open the project in Android Studio.
+3. Sync Gradle.
+4. Run the `app` module on an emulator or device.
 
-## Unit Tests
-- Simple unit test for `SkillForgeViewModel` located in `app/src/test`.
+## Screenshots
+Add your app screenshots here once available.
+
+## Notes
+- The app name is **Skillforge**.
+- This repository currently contains Kotlin code only.
