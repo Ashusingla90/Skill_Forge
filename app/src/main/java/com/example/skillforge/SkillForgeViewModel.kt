@@ -1,4 +1,4 @@
-package com.example.skillforge.ui
+package com.example.skillforge
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

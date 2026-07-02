@@ -1,7 +1,5 @@
 package com.example.skillforge
 
-import com.example.skillforge.ui.SkillForgeViewModel
-import com.example.skillforge.ui.UiState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.StandardTestDispatcher

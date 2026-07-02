@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.example.skillforge.data.Category
 import com.example.skillforge.data.Course
-import com.example.skillforge.ui.UiState
+import com.example.skillforge.UiState
 
 @Composable
 fun HomeScreen(

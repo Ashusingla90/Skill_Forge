@@ -14,8 +14,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.skillforge.ui.SkillForgeViewModel
-import com.example.skillforge.ui.UiState
 import com.example.skillforge.ui.screens.HomeScreen
 import com.example.skillforge.ui.screens.CourseDetailScreen
 import com.example.skillforge.ui.screens.LessonScreen
